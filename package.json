@@ -1,0 +1,15 @@
+{
+  "name": "ChatWorker",
+  "version": "0.0.0",
+  "main": "chat-worker.js",
+  "dependencies": {
+    "connect-redis": "2.0.0",
+    "redis": "0.10.1",
+    "amqp": "0.2.0",
+    "q": "1.0.1"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
