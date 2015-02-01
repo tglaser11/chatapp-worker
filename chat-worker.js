@@ -1,5 +1,5 @@
 var client = require('./redis').client,
-	log = require('../middleware/log');
+	log = require('./middleware/log');
 
 var delta = 60 * 60 * 1000 * 3;
 var interval = 60 * 60 * 1000 * 2;
@@ -49,5 +49,5 @@ function CleanUp(){
 	CleanUpUsers();
 };
 
-setInterval(Cleanup, interval);
+setInterval(CleanUp, interval);
 CleanUp();
